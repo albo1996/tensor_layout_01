@@ -1,0 +1,61 @@
+body {
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+header {
+	margin-top: 20px;
+}
+
+header span:after {
+	content: '';
+	display: block;
+	border-top: 2px solid black;
+	width: 100px;
+	margin: 15px auto;
+}
+
+.logo_img {
+	height: 22px;
+ 	padding-right: 2px;
+}
+
+.logo_title {
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.discription {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+.students {
+	margin-top: 30px;
+}
+
+.person {
+	width: 30%;
+	display: inline-block;
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+
+.ava {
+	object-fit: cover;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.university {
+	color: silver;
+	font-size: 13px;
+}
+
+
