@@ -1,24 +1,14 @@
 class Student {
-    constructor(fullName, university, course, birthDate, photoUrl) {
-       this.fullName = fullName;
-       this.university = university;
-       this.course = course;
-       this.birthDate = birthDate;
-       this.photoUrl = photoUrl;
+    constructor(params) {
+       this.fullName = params.fullName;
+       this.university = params.university;
+       this.course = params.course;
+       this.birthDate = params.birthDate;
+       this.photoUrl = params.photoUrl;
     }
     
    }
-   appendStudentBlock(n) {
-    let div = document.createElement('div');
-    div.className = "name";
-    div.innerHTML = fullName;
-    let span = document.createElement('span');
-    div.className = "university";
-    div.innerHTML = university;
-  
-    document.body.append(div);
-
-   }
+   
    const studentArr = [
 {
 fullName: 'Маша Иванова',
