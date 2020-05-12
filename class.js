@@ -12,7 +12,7 @@ class Student {
    }
 
    get age() {
-      return  Math.floor((new Date() - new Date(2000, 0, 1))/(365*86400000)) + ' лет';
+      return  Math.floor((new Date() - this.birthDate)/(365*86400000)) + ' лет';
    }
 
    
