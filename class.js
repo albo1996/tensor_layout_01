@@ -6,6 +6,15 @@ class Student {
       this.birthDate = params.birthDate;
       this.photoUrl = params.photoUrl;
    }
+   get birthDateStr() {
+      return this.birthDate;
+
+   }
+
+   get age() {
+      return  Math.floor((new Date() - new Date(2000, 0, 1))/(365*86400000)) + ' лет';
+   }
+
    
   }
   function appendStudentBlock(student) {
