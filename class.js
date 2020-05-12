@@ -41,7 +41,6 @@ photoUrl: 'img/ava02.jpg'
 ];
 studentArr.forEach((item) => {
 const student = new Student(item);
-console.log(student);
 appendStudentBlock(student);
 });
 
