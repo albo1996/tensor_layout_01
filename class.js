@@ -7,7 +7,7 @@ class Student {
       this.photoUrl = params.photoUrl;
    }
    get birthDateStr() {
-      return this.birthDate;
+      return this.birthDate.getDate();
 
    }
 
