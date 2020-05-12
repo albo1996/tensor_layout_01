@@ -36,11 +36,26 @@ class Student {
   
   const studentArr = [
 {
-fullName: 'Маша Иванова',
-university: 'УГАТУ',
-course: 2,
-birthDate: new Date(2000, 0, 1),
-photoUrl: 'img/ava02.jpg'
+   fullName: 'Маша Иванова',
+   university: 'УГАТУ',
+   course: 2,
+   birthDate: new Date(2000, 0, 1),
+   photoUrl: 'img/ava02.jpg'
+},
+{
+   fullName: 'Егор Когдин',
+   university: 'НГТУ',
+   course: 2,
+   birthDate: new Date(2000, 0, 1),
+   photoUrl: 'img/ava01.jpg'
+   },
+
+{
+   fullName: 'Анна Лях',
+   university: 'АГУ',
+   course: 2,
+   birthDate: new Date(2000, 0, 1),
+   photoUrl: 'img/ava03.jpg'
 }
 ];
 studentArr.forEach((item) => {
