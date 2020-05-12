@@ -10,19 +10,23 @@ class Student {
   }
   function appendStudentBlock(student) {
      let div = document.createElement('div');
-     div.setAttribute('class', 'person');
-     let img = document.createElement('img');
-     img.setAttribute('class', 'ava');
-     img.src = this.photoUrl;
-     div.append(img);
-     let div1 = document.createElement('div');
-     div1.setAttribute('class','name');
-     div1.innerHTML = `${this.fullName}`;
-     div.append(div1);
-     let span = document.createElement('span');
-     span.setAttribute('class','university');
-     span.innerHTML = `${this.university}`;
-     div.append(span);
+    div.className = "person";
+    document.body.append(div);
+
+    let img = document.createElement('img');
+    img.className = "ava";
+    img.src = student.photoUrl;
+    div.append(img);
+
+    let div1 = document.createElement('div');
+    div1.className = "name";
+    div1.innerHTML = student.fullName;
+    div.append(div1);
+
+    let span = document.createElement('span');
+    span.className = "university";
+    span.innerHTML = student.university;
+    div.append(span); 
 
 
 
